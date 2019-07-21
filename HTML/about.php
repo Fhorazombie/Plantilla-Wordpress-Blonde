@@ -6,7 +6,7 @@
 		<h3 class="didottitle">Arielle Lorre</h3>
 		<hr>
 		<div class="img-thumbnail">
-			<img src="http://lorempixel.com/output/fashion-h-c-600-1200-3.jpg">
+			<img src="img/homepage.jpg">
 		</div>
 	</header>
 	<div class="post-body">

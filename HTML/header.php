@@ -19,7 +19,7 @@
 				<nav id="menu" class="navbar navbar-expand-lg navbar-light">
 					<h1 class="contenido_semantico">Menú</h1>
 				  <div id="logomobile" class="d-block d-sm-block d-md-block d-lg-none d-lx-none">
-				  	<a class="navbar-brand" href="">
+				  	<a class="navbar-brand" href="index.php">
 				  		<img src="img/TBF-01.png">
 				  	</a>
 				  </div>
@@ -38,7 +38,7 @@
 				    	  </a>
 				    	  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 				    	    <a class="dropdown-item" href="catego.php">Food</a>
-				    	    <a class="dropdown-item" href="styles">Fashion</a>
+				    	    <a class="dropdown-item" href="styles.php">Fashion</a>
 				    	  </div>
 				    	</li>
 				    	<li class="nav-item">

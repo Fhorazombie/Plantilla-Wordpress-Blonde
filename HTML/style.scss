@@ -69,16 +69,31 @@ hr {
 
 a {
     color: $colornegro;
+    &:hover {
+        color: $color3;
+        text-decoration: none;
+    }
 }
 
-a:hover {
-    color: $color3;
-}
+
 
 iframe {
 
     width: 100%;
     height: 60vh;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+
+    color: rgb(0, 0, 0);
+
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+
+    color: #FAD0C2;
 
 }
 
@@ -100,18 +115,18 @@ iframe {
 .didottitle {
     font-size: 2.5rem;
     font-family: Didot;
-    font-weight: 900;
+    font-weight: normal;
     text-transform: capitalize;
 }
 
 .btn-primary {
     color: #000;
-    background-color: $color3;
-    border-color: $color3;
+    background-color: $color1;
+    border-color: $color1;
     border-radius: 0px;
     transition: all 0.5s ease;
     &:hover {
-        color: $color3;
+        color: $color1;
         background-color: #000;
         border-color: #000;
     }
@@ -119,8 +134,8 @@ iframe {
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
     color: #000;
-    background-color: $color3;
-    border-color: $color3;
+    background-color: $color1;
+    border-color: $color1;
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -138,6 +153,7 @@ iframe {
         .nav-link {
 	       text-transform: uppercase;
            font-weight: 600;
+           transition: all 0.5s ease;
         }
 	}
 }
@@ -147,7 +163,7 @@ iframe {
     border-radius: 0px;
     border: none;
     text-align: center;
-    background-color: $color1;
+    background-color: $color2;
     color: #000;
     font-weight: 900;
     margin: 0px;
@@ -157,6 +173,12 @@ iframe {
         transition: all 0.5s ease;
         text-transform: uppercase;
         font-size: 0.8rem;
+        &:focus, &:hover {
+            color: #000;
+            text-decoration: none;
+            background-color: $color3;
+
+        }
     }
 
 }
@@ -175,7 +197,7 @@ iframe {
         position: absolute;
         top: 50%;
         width: 28px;
-        height: 3px;
+        height: 2px;
         background-color: #000;
         display: none;
         -webkit-transition-duration: 0s;
@@ -192,7 +214,7 @@ iframe {
             position: absolute;
             content: '';
             width: 28px;
-            height: 3px;
+            height: 2px;
             background-color: #000;
             display: block;
         }
@@ -276,7 +298,11 @@ iframe {
 
 	}
 }
+#featured {
 
+    margin: 0px;
+
+}
 .fetured {
     height: 75vh;
     overflow: hidden;
@@ -305,7 +331,7 @@ iframe {
     	    img {
 
     	        position: absolute;
-    	        height: 120%;
+    	        height: 100%;
     	        margin: auto;
     	        top: -100%;
     	        bottom: -100%;
@@ -361,7 +387,7 @@ iframe {
                 img {
 
                     position: absolute;
-                    width: 120%;
+                    width: 100%;
                     margin: auto;
                     top: -100%;
                     bottom: -100%;
@@ -389,6 +415,7 @@ iframe {
                 font-style: italic;
                 font-weight: normal;
                 font-size: 1.5rem;
+                transition: all 0.5s ease;
 
             }
         }
@@ -412,6 +439,20 @@ iframe {
         text-transform: uppercase;
         display: inline-block;
         font-weight: 600;
+    }
+
+    .shop-instagram{
+        height: 20vw;
+    }
+
+    .instagram-recently{
+        .col-6.col-md-2 {
+            padding: 0px 5px;
+            .content-home-article{
+                height: 12vw;
+                margin-bottom: 10px;
+            }
+        }
     }
 
     .row {
@@ -446,7 +487,6 @@ iframe {
     .content-home-article {
 
         width: 100%;
-        height: 20vw;
         overflow: hidden;
         position: relative;
         background-color: #000;
@@ -481,6 +521,7 @@ iframe {
 
 .navbar.navbar-fixed-bottom.container {
     text-align: center;
+    font-size: 0.9rem;
     div {
         width: 100%;
     }
@@ -545,12 +586,14 @@ iframe {
     height: 75vh;
     overflow-x: hidden;
     overflow-y: scroll;
+    &::-webkit-scrollbar { 
+        display: block; 
+    }
 
     h2 {
         font-style: italic;
         font-size: 1.7rem;
         border-bottom: 2px solid #000;
-        font-weight: 900;
     }
 
     .podcast {
@@ -576,11 +619,11 @@ iframe {
         .imagen-podcast {
             width: 100%;
             position: relative;
-            height: 30vh;
+            height: 25vh;
             overflow: hidden;
             margin: 20px auto;
             img {
-                height: 100%;
+                width: 100%;
                 position: absolute;
                 top: -100%;
                 left: -100%;
@@ -616,6 +659,7 @@ iframe {
 
             font-style: italic;
             font-size: 1.7rem;
+            font-weight: normal;
 
         }
         img{
@@ -625,15 +669,38 @@ iframe {
 
 }
 
-.felcha-radio {
-    color: $color1;
+a.felcha-radio {
+    color: $color1 !important;
     margin: 19px;
     width: 100%;
     height: 20px;
     text-align: left;
     display: block;
     font-size: 1.5em;
+    width: 1em;
+    height: 1.5em;
 
+}
+
+.redes {
+    margin-bottom: 5px;
+    a{
+        transition: all 0.5s ease;
+    }
+    a:hover .fa-stack{
+        border: solid 2px $color1;
+    }
+    .fa-stack {
+        border: solid 2px #000;
+        border-radius: 100%;
+        height: 2em;
+        width: 2em;
+        transition: all 0.5s ease;
+        .fab{
+            line-height: 1.7em;
+        }
+
+    }
 }
 
 /*----------------------------Mobile*/
@@ -661,12 +728,14 @@ iframe {
         vertical-align: middle;
         float: inherit;
         margin: auto;
+        margin-right: -1%;
     }
 
     #logomobile {
         width: 100%;
         height: auto;
         max-width: 60%;
+        margin: auto;
         img {
 
             height: auto;
@@ -683,16 +752,27 @@ iframe {
 
     }
 
+    #featured {
+
+        margin: 30px 0px;
+
+    }
+
     .fetured {
 
         height: auto;
 
-        .post-featured p {
+        .post-featured{
+            p {
+                margin: 7% 0px;
+                text-align: left;
+            }
+            .imagen-post {
+                 height: 55vh;
 
-            margin: 0px;
-            text-align: left;
-
+             }
         }
+
     }
 
     .container-fluid.content-index {
@@ -712,6 +792,10 @@ iframe {
 
     }
 
+    .content-home .instagram-recently .col-6.col-md-2 .content-home-article {
+        height: 38vw;
+    }
+
     iframe {
         height: 30vh;
 
@@ -721,6 +805,11 @@ iframe {
         height: auto;
         overflow-x: inherit;
         overflow-y: inherit;
+
+    }
+
+    .podcasts .podcast .imagen-podcast {
+        height: 48vh;
 
     }
 

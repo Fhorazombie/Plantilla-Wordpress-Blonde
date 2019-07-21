@@ -58,14 +58,22 @@ hr {
 a {
   color: #000;
 }
-
 a:hover {
   color: #F4D0C2;
+  text-decoration: none;
 }
 
 iframe {
   width: 100%;
   height: 60vh;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #FAD0C2;
 }
 
 .audio {
@@ -84,27 +92,27 @@ iframe {
 .didottitle {
   font-size: 2.5rem;
   font-family: Didot;
-  font-weight: 900;
+  font-weight: normal;
   text-transform: capitalize;
 }
 
 .btn-primary {
   color: #000;
-  background-color: #F4D0C2;
-  border-color: #F4D0C2;
+  background-color: #F9DDD2;
+  border-color: #F9DDD2;
   border-radius: 0px;
   transition: all 0.5s ease;
 }
 .btn-primary:hover {
-  color: #F4D0C2;
+  color: #F9DDD2;
   background-color: #000;
   border-color: #000;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
   color: #000;
-  background-color: #F4D0C2;
-  border-color: #F4D0C2;
+  background-color: #F9DDD2;
+  border-color: #F9DDD2;
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -118,13 +126,14 @@ iframe {
 .nav.nav-justified .nav-item .nav-link {
   text-transform: uppercase;
   font-weight: 600;
+  transition: all 0.5s ease;
 }
 
 .dropdown-menu {
   border-radius: 0px;
   border: none;
   text-align: center;
-  background-color: #F9DDD2;
+  background-color: #FFF0EA;
   color: #000;
   font-weight: 900;
   margin: 0px;
@@ -135,6 +144,11 @@ iframe {
   transition: all 0.5s ease;
   text-transform: uppercase;
   font-size: 0.8rem;
+}
+.dropdown-menu .dropdown-item:focus, .dropdown-menu .dropdown-item:hover {
+  color: #000;
+  text-decoration: none;
+  background-color: #F4D0C2;
 }
 
 .hamburger {
@@ -152,7 +166,7 @@ iframe {
   position: absolute;
   top: 50%;
   width: 28px;
-  height: 3px;
+  height: 2px;
   background-color: #000;
   display: none;
   -webkit-transition-duration: 0s;
@@ -169,7 +183,7 @@ iframe {
   position: absolute;
   content: "";
   width: 28px;
-  height: 3px;
+  height: 2px;
   background-color: #000;
   display: block;
 }
@@ -242,6 +256,10 @@ iframe {
   max-width: inherit;
 }
 
+#featured {
+  margin: 0px;
+}
+
 .fetured {
   height: 75vh;
   overflow: hidden;
@@ -269,7 +287,7 @@ iframe {
 }
 .fetured .post-featured .imagen-post img {
   position: absolute;
-  height: 120%;
+  height: 100%;
   margin: auto;
   top: -100%;
   bottom: -100%;
@@ -316,7 +334,7 @@ iframe {
 }
 .category .post .imagen-post a img {
   position: absolute;
-  width: 120%;
+  width: 100%;
   margin: auto;
   top: -100%;
   bottom: -100%;
@@ -338,6 +356,7 @@ iframe {
   font-style: italic;
   font-weight: normal;
   font-size: 1.5rem;
+  transition: all 0.5s ease;
 }
 .category .post-featured {
   text-align: center;
@@ -357,6 +376,16 @@ iframe {
   text-transform: uppercase;
   display: inline-block;
   font-weight: 600;
+}
+.content-home .shop-instagram {
+  height: 20vw;
+}
+.content-home .instagram-recently .col-6.col-md-2 {
+  padding: 0px 5px;
+}
+.content-home .instagram-recently .col-6.col-md-2 .content-home-article {
+  height: 12vw;
+  margin-bottom: 10px;
 }
 .content-home .row {
   margin-bottom: 14px;
@@ -380,7 +409,6 @@ iframe {
 }
 .content-home .content-home-article {
   width: 100%;
-  height: 20vw;
   overflow: hidden;
   position: relative;
   background-color: #000;
@@ -406,6 +434,7 @@ iframe {
 
 .navbar.navbar-fixed-bottom.container {
   text-align: center;
+  font-size: 0.9rem;
 }
 .navbar.navbar-fixed-bottom.container div {
   width: 100%;
@@ -461,11 +490,13 @@ iframe {
   overflow-x: hidden;
   overflow-y: scroll;
 }
+.podcasts::-webkit-scrollbar {
+  display: block;
+}
 .podcasts h2 {
   font-style: italic;
   font-size: 1.7rem;
   border-bottom: 2px solid #000;
-  font-weight: 900;
 }
 .podcasts .podcast {
   text-align: center;
@@ -483,12 +514,12 @@ iframe {
 .podcasts .podcast .imagen-podcast {
   width: 100%;
   position: relative;
-  height: 30vh;
+  height: 25vh;
   overflow: hidden;
   margin: 20px auto;
 }
 .podcasts .podcast .imagen-podcast img {
-  height: 100%;
+  width: 100%;
   position: absolute;
   top: -100%;
   left: -100%;
@@ -515,19 +546,42 @@ iframe {
 .shop-inta .shop-inta-content h2 {
   font-style: italic;
   font-size: 1.7rem;
+  font-weight: normal;
 }
 .shop-inta .shop-inta-content img {
   width: 100%;
 }
 
-.felcha-radio {
-  color: #F9DDD2;
+a.felcha-radio {
+  color: #F9DDD2 !important;
   margin: 19px;
   width: 100%;
   height: 20px;
   text-align: left;
   display: block;
   font-size: 1.5em;
+  width: 1em;
+  height: 1.5em;
+}
+
+.redes {
+  margin-bottom: 5px;
+}
+.redes a {
+  transition: all 0.5s ease;
+}
+.redes a:hover .fa-stack {
+  border: solid 2px #F9DDD2;
+}
+.redes .fa-stack {
+  border: solid 2px #000;
+  border-radius: 100%;
+  height: 2em;
+  width: 2em;
+  transition: all 0.5s ease;
+}
+.redes .fa-stack .fab {
+  line-height: 1.7em;
 }
 
 /*----------------------------Mobile*/
@@ -544,12 +598,14 @@ iframe {
     vertical-align: middle;
     float: inherit;
     margin: auto;
+    margin-right: -1%;
   }
 
   #logomobile {
     width: 100%;
     height: auto;
     max-width: 60%;
+    margin: auto;
   }
   #logomobile img {
     height: auto;
@@ -562,12 +618,19 @@ iframe {
     padding: 0px;
   }
 
+  #featured {
+    margin: 30px 0px;
+  }
+
   .fetured {
     height: auto;
   }
   .fetured .post-featured p {
-    margin: 0px;
+    margin: 7% 0px;
     text-align: left;
+  }
+  .fetured .post-featured .imagen-post {
+    height: 55vh;
   }
 
   .container-fluid.content-index {
@@ -583,6 +646,10 @@ iframe {
     height: 25vh;
   }
 
+  .content-home .instagram-recently .col-6.col-md-2 .content-home-article {
+    height: 38vw;
+  }
+
   iframe {
     height: 30vh;
   }
@@ -591,6 +658,10 @@ iframe {
     height: auto;
     overflow-x: inherit;
     overflow-y: inherit;
+  }
+
+  .podcasts .podcast .imagen-podcast {
+    height: 48vh;
   }
 
   .category .post .post-text .didot {

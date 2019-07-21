@@ -5,19 +5,16 @@
 		<div class="redes">
 			<a href="">
 				<span class="fa-stack" style="vertical-align: top;">
-				  <i class="far fa-circle fa-stack-2x"></i>
 				  <i class="fab fa-facebook-f fa-stack-1x"></i>
 				</span>
 			</a>
 			<a href="">
 				<span class="fa-stack" style="vertical-align: top;">
-				  <i class="far fa-circle fa-stack-2x"></i>
 				  <i class="fab fa-instagram fa-stack-1x"></i>
 				</span>
 			</a>
 			<a href="">
 				<span class="fa-stack" style="vertical-align: top;">
-				  <i class="far fa-circle fa-stack-2x"></i>
 				  <i class="fab fa-youtube fa-stack-1x"></i>
 				</span>
 			</a>

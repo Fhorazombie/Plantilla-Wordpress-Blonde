@@ -1,17 +1,17 @@
 <?php include "header.php"; ?>
 
-<div class="container-fluid content-index content-home">
-	<div class="row">
+<div class="container-fluid content-index">
+	<div id="featured" class="row content-home">
 		<div class="col-12 col-md-1">
 			<span class="title-recently-space">/</span>
-			<h2 class="title-recently">Shop My<br>Instagram</h1>
+			<h2 class="title-recently">Recently<br>on the<rb>blog</h1>
 		</div>
 		<div class="col-12 col-md-9">
 			<section class="fetured">
 					<article class="post-featured">
 						<div class="row">
 							<div class="d-none d-sm-none d-md-block d-lg-block d-xl-block col-md-7 imagen-post">
-								<img src="img/foto_1.jpg">
+								<img src="img/home.jpg">
 							</div>
 							<div class="col-12 col-md-5 post-text">
 								<div>
@@ -22,7 +22,7 @@
 										<img src="img/foto_1.jpg">
 									</div>
 									<p>Long-chain hydrocarbons apophenia smart-bomb computer wristwatch denim hotdog claymore mine face forwards vinyl drone. BASE jump-space 8-bit woman savant denim market towards post-neural uplink.</p>
-									<button type="button" class="btn btn-primary">Reads more</button>
+									<a href="" class="btn btn-primary">Reads more</a>
 								</div>
 							</div>
 						</div>
@@ -36,7 +36,7 @@
 						<h3>Jera Foster-Fell "From BBG to Balance"</h3>
 						<div class="imagen-podcast">
 							<a href="radio.php">
-								<img src="http://lorempixel.com/500/500/fashion">
+								<img src="img/radio.jpg">
 							</a>
 						</div>
 						<div class="reproductor">
@@ -54,7 +54,7 @@
 						<h3>Alexis Haines "From Shooting Drug and TV to Recovering from Reality Part II"</h3>
 						<div class="imagen-podcast">
 							<a href="radio.php">
-								<img src="http://lorempixel.com/500/500/fashion">
+								<img src="img/radio2.jpg">
 							</a>
 						</div>
 						<div class="reproductor">
@@ -84,25 +84,25 @@
 						<article class="content-home-article shop-instagram">
 							<div class="imagen-content-home-article">
 								<a href="shop-inta.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-shop.jpg">
 								</a>
 							</div>
 						</article>
 					</div>
 					<div class="col-12 col-md-4">
-						<article class="content-home-article">
+						<article class="content-home-article shop-instagram">
 							<div class="imagen-content-home-article">
 								<a href="shop-inta.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-shop2.jpg">
 								</a>
 							</div>
 						</article>
 					</div>
 					<div class="col-12 col-md-4">
-						<article class="content-home-article">
+						<article class="content-home-article shop-instagram">
 							<div class="imagen-content-home-article">
 								<a href="shop-inta.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-shop3.jpg">
 								</a>
 							</div>
 						</article>
@@ -110,28 +110,28 @@
 				</div>
 				<div class="row">
 					<div class="col-12 col-md-4">
-						<article class="content-home-article">
+						<article class="content-home-article shop-instagram">
 							<div class="imagen-content-home-article">
 								<a href="shop-inta.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-shop4.jpg">
 								</a>
 							</div>
 						</article>
 					</div>
 					<div class="col-12 col-md-4">
-						<article class="content-home-article">
+						<article class="content-home-article shop-instagram">
 							<div class="imagen-content-home-article">
 								<a href="shop-inta.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-shop5.jpg">
 								</a>
 							</div>
 						</article>
 					</div>
 					<div class="col-12 col-md-4">
-						<article class="content-home-article">
+						<article class="content-home-article shop-instagram">
 							<div class="imagen-content-home-article">
 								<a href="shop-inta.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-shop6.jpg">
 								</a>
 							</div>
 						</article>
@@ -152,7 +152,7 @@
 								<span class="tag-post">Youtube</span>
 								<h3 class="didottitle">Reacting to your incluence ASSUPTIONS</h3>
 								<hr>
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/MAhfUy0QMb4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/jw4iRknzAr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</article>
 			</div>
 		</div>
@@ -170,7 +170,7 @@
 						<article class="content-home-article">
 							<div class="imagen-content-home-article">
 								<a href="vegan.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-recent1.jpg">
 								</a>
 							</div>
 						</article>
@@ -179,7 +179,7 @@
 						<article class="content-home-article">
 							<div class="imagen-content-home-article">
 								<a href="vegan.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-recent2.jpg">
 								</a>
 							</div>
 						</article>
@@ -188,7 +188,7 @@
 						<article class="content-home-article">
 							<div class="imagen-content-home-article">
 								<a href="vegan.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-recent3.jpg">
 								</a>
 							</div>
 						</article>
@@ -197,7 +197,7 @@
 						<article class="content-home-article">
 							<div class="imagen-content-home-article">
 								<a href="vegan.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-recent4.jpg">
 								</a>
 							</div>
 						</article>
@@ -206,7 +206,7 @@
 						<article class="content-home-article">
 							<div class="imagen-content-home-article">
 								<a href="vegan.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-recent5.jpg">
 								</a>
 							</div>
 						</article>
@@ -216,7 +216,7 @@
 						<article class="content-home-article">
 							<div class="imagen-content-home-article">
 								<a href="vegan.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-shop2.jpg">
 								</a>
 							</div>
 						</article>
@@ -225,7 +225,7 @@
 						<article class="content-home-article">
 							<div class="imagen-content-home-article">
 								<a href="vegan.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-recent7.jpg">
 								</a>
 							</div>
 						</article>
@@ -234,7 +234,7 @@
 						<article class="content-home-article">
 							<div class="imagen-content-home-article">
 								<a href="vegan.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-recent8.jpg">
 								</a>
 							</div>
 						</article>
@@ -243,7 +243,7 @@
 						<article class="content-home-article">
 							<div class="imagen-content-home-article">
 								<a href="vegan.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-recent9.jpg">
 								</a>
 							</div>
 						</article>
@@ -252,7 +252,7 @@
 						<article class="content-home-article">
 							<div class="imagen-content-home-article">
 								<a href="vegan.php">
-								<img src="http://lorempixel.com/600/600/fashion">
+								<img src="img/insta-recent10.jpg">
 								</a>
 							</div>
 						</article>
@@ -270,7 +270,7 @@
 						<h3>Jera Foster-Fell "From BBG to Balance"</h3>
 						<div class="imagen-podcast">
 							<a href="radio.php">
-								<img src="http://lorempixel.com/500/500/fashion">
+								<img src="img/radio2.jpg">
 							</a>
 						</div>
 						<div class="reproductor">

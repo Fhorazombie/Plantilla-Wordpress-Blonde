@@ -14,7 +14,7 @@
 						<article class="post">
 								<div class="imagen-post">
 									<a href="vegan.php">
-									<img src="http://lorempixel.com/600/600/fashion">
+									<img src="img/IMG_2175-2000x2000.jpg">
 									</a>
 								</div>
 								<div class="post-text">
@@ -28,7 +28,7 @@
 							<article class="post">
 									<div class="imagen-post">
 										<a href="vegan.php">
-										<img src="http://lorempixel.com/600/600/fashion">
+										<img src="img/NIKE7.jpg">
 										</a>
 									</div>
 									<div class="post-text">
@@ -44,12 +44,12 @@
 						<article class="post">
 								<div class="imagen-post">
 									<a href="vegan.php">
-									<img src="http://lorempixel.com/600/600/fashion">
+									<img src="img/cabomain.jpg">
 									</a>
 								</div>
 								<div class="post-text">
 									<div>
-										<a href="vegan.php" class="didot">Table-space range</a>
+										<a href="vegan.php" class="didot">CABO</a>
 									</div>
 								</div>
 						</article>
@@ -58,7 +58,7 @@
 							<article class="post">
 									<div class="imagen-post">
 										<a href="vegan.php">
-										<img src="http://lorempixel.com/1200/600/fashion">
+										<img src="img/matrix3.jpg">
 										</a>
 									</div>
 									<div class="post-text">

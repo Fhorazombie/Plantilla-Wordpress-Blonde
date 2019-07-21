@@ -6,7 +6,7 @@
 		<h3 class="didottitle">Vegan Tzatziki</h3>
 		<hr>
 		<div class="img-thumbnail">
-			<img src="http://lorempixel.com/output/food-h-c-600-1200-1.jpg">
+			<img src="img/tzatziki.jpg">
 		</div>
 	</header>
 	<div class="post-body">

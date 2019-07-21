@@ -9,7 +9,7 @@
 				<article class="shop-inta">
 					<div class="row">
 						<div class="col-12 col-md-6 shop-inta-thumbnail">
-							<img src="http://lorempixel.com/600/900/fashion">
+							<img src="img/insta-shop.jpg">
 						</div>
 						<div class="col-12 col-md-6 shop-inta-content">
 							<h2 class="italic">Shop My Swimsuit</h2>

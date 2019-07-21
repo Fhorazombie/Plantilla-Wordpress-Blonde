@@ -2,10 +2,10 @@
 
 <article class="container post">
 	<header class="post-header">
-		<span class="felcha-radio"><i class="fas fa-chevron-left"></i></span>
+		<a href="index.php" class="felcha-radio"><i class="fas fa-chevron-left"></i></a>
 		<h3 class="didottitle">Jera Foster-Fell "From BBG to Balance"</h3>
 		<div class="img-thumbnail">
-			<img src="http://lorempixel.com/500/500/fashion">
+			<img src="img/radio.jpg">
 		</div>
 		<div class="reproductor">
 				<audio class="audio" preload="auto" controls="">
