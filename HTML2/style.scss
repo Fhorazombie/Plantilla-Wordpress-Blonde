@@ -1,0 +1,73 @@
+@import url("css/bootstrap.min.css");
+@import url("css/all.min.css");
+
+
+/*
+COLORES
+
+azul oscuro #055e6e 
+verde #72bf0d 
+azul claro #3fa9f5
+
+*/
+
+/* @font-face {
+    font-family: Didot;
+    src: url('webfonts/DidotRegular.ttf');
+} */
+.contenido_semantico {
+  clip-path: inset(100%);
+  clip: rect(1px 1px 1px 1px);
+  /* IE 6/7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  /* added line */
+  width: 1px;
+}
+
+#menu-container {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.nav.flex-column{
+    height: 100vh;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    height: 12%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+
+    font-size: 0.7rem;
+
+}
+/*----------------------------Mobile*/
+
+@media all and (orientation: portrait) { 
+
+
+
+}
+
+@media only screen and (max-width: 990px) {}
