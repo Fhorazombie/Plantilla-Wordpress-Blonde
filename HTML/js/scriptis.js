@@ -14,3 +14,12 @@
 	        $('#menu').removeClass('fixed');
 	    }
 	});
+
+	$(document).ready(function() {
+		console.log("se ejecuto")
+	 // executes when complete page is fully loaded, including all frames, objects and images
+	 for (var i=0; i<$("img").length; i++) {
+	 			console.log("loop "+i)
+	     $("img:eq("+i+")").css( "filter", "none" )
+	 }
+	});
