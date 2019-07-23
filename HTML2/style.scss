@@ -15,6 +15,11 @@ azul claro #3fa9f5
     font-family: Didot;
     src: url('webfonts/DidotRegular.ttf');
 } */
+
+body{
+  overflow: hidden;
+}
+
 .contenido_semantico {
   clip-path: inset(100%);
   clip: rect(1px 1px 1px 1px);
@@ -33,35 +38,110 @@ azul claro #3fa9f5
     height: 100vh;
     top: 0;
     left: 0;
+    #menu{
+      .nav.flex-column{
+          height: 100vh;
+          display: -webkit-box;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .nav-link {
+              height: 9%;
+              display: -webkit-box;
+              display: -moz-box;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 0.7rem;
+              color: #494949;
+              position: relative;
+              &:hover .hover-fa-circle, &.active .hover-fa-circle {
+                  border: 2px solid  #7f7f7f;
+              }
+
+              &:hover p, &.active p{
+                opacity: 1;
+              }
+
+              p {
+                  position: absolute;
+                  top: 2.19em;
+                  left: 2.7em;
+                  font-size: 1.3em;
+                  opacity: 0;
+                  transition: all 0.5s ease;
+                  text-transform: uppercase;
+              }
+
+              .hover-fa-circle{
+                transition: all 0.5s ease;
+                border: 2px solid  #7f7f7f00;
+                border-radius: 100%;
+                padding: 3px;
+                text-align: center;
+                width: 1.8em;
+                height: 1.7em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: auto;
+
+              }
+
+          }
+      }
+
+    }
 }
 
-.nav.flex-column{
-    height: 100vh;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#redes{
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  .navbar{
+    .nav.flex-column{
+        height: 100vh;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .nav-link {
+            height: 6%;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            color: #494949;
+            position: relative;
+        }
+    }
+  }
 }
 
-.nav-link {
-    height: 12%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.section-nav-scroll {
+    background-color: #ca0b0b;
+    height: 100vh;/*Borrar*/
 }
 
-.nav-link {
-
-    font-size: 0.7rem;
-
+/*Borrar*/
+#about {
+    background-color: #63ca6c;
 }
+/*Borrar*/
+
 /*----------------------------Mobile*/
 
 @media all and (orientation: portrait) { 

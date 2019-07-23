@@ -16,4 +16,7 @@ $("#menu .nav a[href^='#']").on('click', function(e) {
        window.location.hash = hash;
      });
 
+   $(".nav-link").removeClass("active")
+   $(this).addClass("active")
+
 });
