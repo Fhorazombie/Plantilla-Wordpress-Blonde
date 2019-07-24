@@ -12,8 +12,16 @@ azul claro #3fa9f5
     font-family: Didot;
     src: url('webfonts/DidotRegular.ttf');
 } */
-body {
-  overflow: hidden;
+a {
+  color: #000;
+}
+
+a {
+  color: #000;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
 }
 
 .contenido_semantico {
@@ -129,6 +137,141 @@ body {
 }
 
 /*Borrar*/
+.container-section {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+.container-section .titulos {
+  z-index: 9;
+  margin-top: 4%;
+  margin-left: 12%;
+  margin-right: 12%;
+  position: relative;
+}
+.container-section .titulos h2 {
+  font-size: 100px;
+  text-transform: lowercase;
+}
+.container-section .title-top {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: -4%;
+  width: 100%;
+}
+.container-section .title-top .content-section {
+  background-color: #ffefcb;
+  padding-top: 7%;
+  padding-right: 7%;
+  padding-left: 3%;
+  height: 86.5vh;
+  width: 100%;
+}
+.container-section .title-top .content-section .categories {
+  margin: auto;
+  height: 100%;
+}
+.container-section .title-top .content-section .categories .h1 {
+  font-size: 8vh;
+  color: #8e8570;
+}
+.container-section .title-top .content-section .img-section {
+  position: relative;
+  height: 95%;
+  overflow: hidden;
+  border: solid 7px #9c5820;
+}
+.container-section .title-top .content-section .img-section img {
+  position: absolute;
+  top: -100%;
+  bottom: -100%;
+  left: -100%;
+  right: -100%;
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.container-section .title-top .content-section-r {
+  background-color: #ffefcb;
+  padding-top: 7%;
+  padding-right: 3%;
+  padding-left: 7%;
+  height: 86.5vh;
+  width: 100%;
+}
+.container-section .title-top .content-section-r .categories {
+  margin: auto;
+  height: 100%;
+}
+.container-section .title-top .content-section-r .categories .h1 {
+  font-size: 8vh;
+  color: #8e8570;
+}
+.container-section .title-top .content-section-r .img-section {
+  position: relative;
+  height: 95%;
+  overflow: hidden;
+  border: solid 7px #9c5820;
+}
+.container-section .title-top .content-section-r .img-section img {
+  position: absolute;
+  top: -100%;
+  bottom: -100%;
+  left: -100%;
+  right: -100%;
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+.navbar.navbar-fixed-bottom.container {
+  text-align: center;
+  font-size: 0.9rem;
+}
+.navbar.navbar-fixed-bottom.container div {
+  width: 100%;
+}
+.navbar.navbar-fixed-bottom.container div p {
+  font-size: 0.6rem;
+}
+.navbar.navbar-fixed-bottom.container div .redes {
+  margin-bottom: 5px;
+}
+.navbar.navbar-fixed-bottom.container div .redes a {
+  transition: all 0.5s ease;
+}
+
 /*----------------------------Mobile*/
+@media only screen and (max-width: 990px) {
+  .container-fluid {
+    padding: 0px 10%;
+  }
+  .container-fluid .container-section {
+    width: 100%;
+    height: auto;
+  }
+  .container-fluid .container-section .titulos {
+    margin: 0px;
+  }
+  .container-fluid .container-section .titulos h2 {
+    font-size: 3rem;
+  }
+  .container-fluid .container-section .title-top {
+    margin-top: -1.6rem;
+  }
+  .container-fluid .container-section .title-top .col-12 {
+    padding: 0px;
+  }
+  .container-fluid .container-section .title-top .col-12 .content-section, .container-fluid .container-section .title-top .col-12 .content-section-r {
+    height: auto;
+    padding: 7% 6%;
+    margin: auto;
+    min-height: 100vh;
+  }
+  .container-fluid .container-section .title-top .col-12 .content-section .img-section, .container-fluid .container-section .title-top .col-12 .content-section-r .img-section {
+    height: 65vh;
+    margin: 10% 0px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

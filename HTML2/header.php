@@ -6,9 +6,9 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body class="home"  data-spy="scroll" data-target="#menu" data-offset="0">
 
-		<header id="menu-container">
+		<header id="menu-container" class="d-none d-sm-none d-md-block d-lg-block d-lx-block">
 			<h1 class="contenido_semantico">Cammie scott</h1>
 			<nav id="menu" class="navbar navbar-light">
 			  <nav class="nav flex-column nav-fill">
@@ -35,7 +35,7 @@
 			  </nav>
 			</nav>
 		</header>
-		<div id="redes">
+		<div id="redes" class="d-none d-sm-none d-md-block d-lg-block d-lx-block">
 			<h1 class="contenido_semantico">Redes</h1>
 			<nav class="navbar navbar-light">
 			  <nav class="nav flex-column nav-fill">
