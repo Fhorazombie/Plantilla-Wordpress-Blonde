@@ -12,15 +12,19 @@ azul claro #3fa9f5
     font-family: Didot;
     src: url('webfonts/DidotRegular.ttf');
 } */
-a {
-  color: #000;
+body {
+  color: #5e614e;
 }
 
 a {
-  color: #000;
+  color: #5e614e;
+}
+
+a {
+  color: #5e614e;
 }
 a:hover {
-  color: #000;
+  color: #5e614e;
   text-decoration: none;
 }
 
@@ -63,11 +67,11 @@ a:hover {
   align-items: center;
   justify-content: center;
   font-size: 0.7rem;
-  color: #494949;
+  color: #5e614e;
   position: relative;
 }
 #menu-container #menu .nav.flex-column .nav-link:hover .hover-fa-circle, #menu-container #menu .nav.flex-column .nav-link.active .hover-fa-circle {
-  border: 2px solid #7f7f7f;
+  border: 2px solid #5e614e;
 }
 #menu-container #menu .nav.flex-column .nav-link:hover p, #menu-container #menu .nav.flex-column .nav-link.active p {
   opacity: 1;
@@ -121,7 +125,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  color: #494949;
+  color: #5e614e;
   position: relative;
 }
 
@@ -160,7 +164,7 @@ a:hover {
   width: 100%;
 }
 .container-section .title-top .content-section {
-  background-color: #ffefcb;
+  background-color: #fff0dd;
   padding-top: 7%;
   padding-right: 7%;
   padding-left: 3%;
@@ -179,7 +183,7 @@ a:hover {
   position: relative;
   height: 95%;
   overflow: hidden;
-  border: solid 7px #9c5820;
+  border: solid 7px #d8b5a0;
 }
 .container-section .title-top .content-section .img-section img {
   position: absolute;
@@ -192,7 +196,7 @@ a:hover {
   width: 100%;
 }
 .container-section .title-top .content-section-r {
-  background-color: #ffefcb;
+  background-color: #fff0dd;
   padding-top: 7%;
   padding-right: 3%;
   padding-left: 7%;
@@ -205,13 +209,18 @@ a:hover {
 }
 .container-section .title-top .content-section-r .categories .h1 {
   font-size: 8vh;
-  color: #8e8570;
+  color: #d8b5a0;
+  transition: all 0.5s ease;
+}
+.container-section .title-top .content-section-r .categories .h1:hover {
+  color: #fff;
+  margin-left: 3%;
 }
 .container-section .title-top .content-section-r .img-section {
   position: relative;
   height: 95%;
   overflow: hidden;
-  border: solid 7px #9c5820;
+  border: solid 7px #d8b5a0;
 }
 .container-section .title-top .content-section-r .img-section img {
   position: absolute;
@@ -232,7 +241,7 @@ a:hover {
   width: 100%;
 }
 .navbar.navbar-fixed-bottom.container div p {
-  font-size: 0.6rem;
+  font-size: 1rem;
 }
 .navbar.navbar-fixed-bottom.container div .redes {
   margin-bottom: 5px;
@@ -241,7 +250,115 @@ a:hover {
   transition: all 0.5s ease;
 }
 
-/*----------------------------Mobile*/
+.subscribe-title {
+  font-size: 17vh;
+  font-weight: bold;
+}
+
+#subscribe-input {
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #5e614e;
+  margin-top: 9%;
+  border-radius: 0px;
+  margin-bottom: 5%;
+}
+
+#subscribe-submit {
+  background: none;
+  color: #5e614e;
+  border: 1px solid #5e614e;
+  border-radius: 0px;
+}
+#subscribe-submit:focus {
+  box-shadow: 0 0 0 0.2rem #5e614e;
+}
+
+.posts-category {
+  height: auto;
+}
+.posts-category .titulos {
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  position: inherit;
+}
+.posts-category .post-catego .content-post-catego {
+  margin-left: 25%;
+  margin-right: 5%;
+  margin-top: 25vh;
+  margin-bottom: 5%;
+}
+.posts-category .post-catego .content-post-catego header {
+  font-size: 4vh;
+}
+.posts-category .post-catego .img-post-cat {
+  width: 100%;
+  position: relative;
+  height: 75vh;
+  overflow: hidden;
+  background-color: #000;
+}
+.posts-category .post-catego .img-post-cat img {
+  width: 100%;
+  position: absolute;
+  top: -100%;
+  bottom: -100%;
+  left: -100%;
+  right: -100%;
+  margin: auto;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+.posts-category .post-catego .img-post-cat .readmore {
+  color: #fff0dd;
+  position: absolute;
+  top: -300%;
+  bottom: -100%;
+  left: -100%;
+  right: -100%;
+  margin: auto;
+  z-index: 999;
+  width: 14vw;
+  height: 12vh;
+  font-size: 6vh;
+  text-align: center;
+  opacity: 0;
+  padding: 0px;
+  transition: all 0.5s ease;
+}
+.posts-category .post-catego .img-post-cat:hover .readmore {
+  opacity: 1;
+  top: -100%;
+}
+.posts-category .post-catego .img-post-cat:hover img {
+  opacity: 0.7;
+}
+.posts-category .izquierdo .content-post-catego {
+  margin-top: 5%;
+  margin-bottom: 25vh;
+}
+.posts-category .izquierdo .img-post-cat .readmore {
+  top: -100%;
+  bottom: -300%;
+}
+.posts-category .izquierdo .img-post-cat:hover .readmore {
+  bottom: -100%;
+}
+
+.izquierdo .img-post-cat {
+  margin-top: 0px;
+}
+
+/*----------------------------
+##################################################################
+##################################################################
+##################################################################
+##################################################################
+
+Mobile*/
 @media only screen and (max-width: 990px) {
   .container-fluid {
     padding: 0px 10%;
@@ -271,6 +388,10 @@ a:hover {
   .container-fluid .container-section .title-top .col-12 .content-section .img-section, .container-fluid .container-section .title-top .col-12 .content-section-r .img-section {
     height: 65vh;
     margin: 10% 0px;
+  }
+
+  .navbar.navbar-fixed-bottom.container div p {
+    font-size: 0.6rem;
   }
 }
 

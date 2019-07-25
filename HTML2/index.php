@@ -34,11 +34,11 @@
 			  			<div class="row content-section-r">
 			  				<div class="col-12">
 			  					<nav class="nav flex-column categories">
-			  					  <a class="nav-link h1" href="#">travel</a>
-			  					  <a class="nav-link h1" href="#">style</a>
-			  					  <a class="nav-link h1" href="#">beauty</a>
-			  					  <a class="nav-link h1" href="#">life</a>
-			  					  <a class="nav-link h1" href="#">food</a>
+			  					  <a class="nav-link h1" href="category.php">travel</a>
+			  					  <a class="nav-link h1" href="category.php">style</a>
+			  					  <a class="nav-link h1" href="category.php">beauty</a>
+			  					  <a class="nav-link h1" href="category.php">life</a>
+			  					  <a class="nav-link h1" href="category.php">food</a>
 			  					</nav>
 			  				</div>
 			  			</div>
@@ -67,8 +67,14 @@
 	  	  		<div class="col-12 col-md-10 offset-md-l-2">
 	  	  			<div class="row content-section-r">
 	  	  				<div class="col-12 col-md-7">
-	  	  					<h4>Hey</h4><br><h4>there!</h4>
+	  	  					<h4 class="subscribe-title">Hey<br>there!</h4>
 	  	  					<span>Don´t forget to sign up so you never miss a post</span>
+	  	  					<form>
+	  	  					  <div class="form-group">
+	  	  					    <input type="email" class="form-control" id="subscribe-input">
+	  	  					  </div>
+	  	  					  <button id="subscribe-submit" type="submit" class="btn btn-primary float-right">submit</button>
+	  	  					</form>
 	  	  				</div>
 	  	  				<div class="col-12 col-md-5">
 	  	  				</div>
