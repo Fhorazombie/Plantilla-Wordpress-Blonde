@@ -285,6 +285,10 @@ a:hover {
   margin-right: auto;
   position: inherit;
 }
+.posts-category .post-catego {
+  margin-right: 0px;
+  margin-left: 0px;
+}
 .posts-category .post-catego .content-post-catego {
   margin-left: 25%;
   margin-right: 5%;
@@ -339,6 +343,9 @@ a:hover {
 .posts-category .izquierdo .content-post-catego {
   margin-top: 5%;
   margin-bottom: 25vh;
+  width: 100%;
+  display: block;
+  flex: inherit;
 }
 .posts-category .izquierdo .img-post-cat .readmore {
   top: -100%;
@@ -346,6 +353,9 @@ a:hover {
 }
 .posts-category .izquierdo .img-post-cat:hover .readmore {
   bottom: -100%;
+}
+.posts-category .uno-c .content-post-catego {
+  margin-top: 10vh;
 }
 
 .izquierdo .img-post-cat {
@@ -388,6 +398,18 @@ Mobile*/
   .container-fluid .container-section .title-top .col-12 .content-section .img-section, .container-fluid .container-section .title-top .col-12 .content-section-r .img-section {
     height: 65vh;
     margin: 10% 0px;
+  }
+
+  .posts-category .izquierdo .content-post-catego, .posts-category .post-catego .content-post-catego {
+    margin-top: 15vh;
+    margin-bottom: 5%;
+  }
+
+  .posts-category .post-catego .img-post-cat .readmore {
+    top: -100%;
+    opacity: 1;
+    width: 100%;
+    bottom: -100%;
   }
 
   .navbar.navbar-fixed-bottom.container div p {

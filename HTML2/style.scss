@@ -320,6 +320,8 @@ a {
         position: inherit;
     }
     .post-catego{
+      margin-right: 0px;
+      margin-left: 0px;
       .content-post-catego{
             margin-left: 25%;
             margin-right: 5%;
@@ -381,6 +383,9 @@ a {
       .content-post-catego{
           margin-top: 5%;
           margin-bottom: 25vh;
+          width: 100%;
+          display: block;
+          flex: inherit;
       }
 
       .img-post-cat {
@@ -393,6 +398,10 @@ a {
             bottom: -100%;
           }
       }
+    }
+
+    .uno-c .content-post-catego{
+      margin-top: 10vh;
     }
 }
 
@@ -451,6 +460,21 @@ Mobile*/
             }
             }
       }
+  }
+
+  .posts-category .izquierdo .content-post-catego, .posts-category .post-catego .content-post-catego {
+    margin-top: 15vh;
+    margin-bottom: 5%;
+
+  }
+
+  .posts-category .post-catego .img-post-cat .readmore {
+
+      top: -100%;
+      opacity: 1;
+      width: 100%;
+      bottom: -100%;
+
   }
 
   .navbar.navbar-fixed-bottom.container div p {
