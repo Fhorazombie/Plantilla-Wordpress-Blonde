@@ -8,12 +8,22 @@ verde #72bf0d
 azul claro #3fa9f5
 
 */
-/* @font-face {
-    font-family: Didot;
-    src: url('webfonts/DidotRegular.ttf');
-} */
+@font-face {
+  font-family: Didoni;
+  src: url("webfonts/K22_Didoni.ttf");
+}
+@font-face {
+  font-family: Didot;
+  src: url("webfonts/DidotRegular.ttf");
+}
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("webfonts/HelveticaNeue.ttf");
+}
 body {
   color: #5e614e;
+  font-family: Didot;
+  overflow-x: hidden;
 }
 
 a {
@@ -26,6 +36,10 @@ a {
 a:hover {
   color: #5e614e;
   text-decoration: none;
+}
+
+button {
+  font-family: HelveticaNeue;
 }
 
 .contenido_semantico {
@@ -46,6 +60,7 @@ a:hover {
   height: 100vh;
   top: 0;
   left: 0;
+  z-index: 999;
 }
 #menu-container #menu .nav.flex-column {
   height: 100vh;
@@ -84,6 +99,7 @@ a:hover {
   opacity: 0;
   transition: all 0.5s ease;
   text-transform: uppercase;
+  font-family: HelveticaNeue;
 }
 #menu-container #menu .nav.flex-column .nav-link .hover-fa-circle {
   transition: all 0.5s ease;
@@ -129,18 +145,104 @@ a:hover {
   position: relative;
 }
 
+.hamburger {
+  display: block;
+  float: right;
+  width: 54px;
+  height: 42px;
+  margin: 12px 15px;
+  position: relative;
+  z-index: 999999;
+  border: none;
+}
+.hamburger span {
+  margin: -2px 0 0;
+  position: absolute;
+  top: 50%;
+  width: 28px;
+  height: 2px;
+  background-color: #000;
+  display: none;
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  transition-duration: 0s;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  -ms-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  display: block;
+}
+.hamburger span:before, .hamburger span:after {
+  position: absolute;
+  content: "";
+  width: 28px;
+  height: 2px;
+  background-color: #000;
+  display: block;
+}
+.hamburger span:before {
+  margin-top: -10px;
+  -webkit-transition-property: margin, -webkit-transform;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-delay: 0.2s, 0s;
+  -moz-transition-property: margin, -moz-transform;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-delay: 0.2s, 0s;
+  transition-property: margin, transform;
+  transition-duration: 0.2s;
+  transition-delay: 0.2s, 0s;
+}
+.hamburger span:after {
+  margin-top: 10px;
+  -webkit-transition-property: margin, -webkit-transform;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-delay: 0.2s, 0s;
+  -moz-transition-property: margin, -moz-transform;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-delay: 0.2s, 0s;
+  transition-property: margin, transform;
+  transition-duration: 0.2s;
+  transition-delay: 0.2s, 0s;
+}
+.hamburger:hover {
+  border: none;
+}
+.hamburger.active {
+  border: none;
+}
+.hamburger.active span {
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  -ms-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.hamburger.active span:before {
+  margin-top: 0;
+  -webkit-transform: rotate(45deg);
+  -webkit-transition-delay: 0s, 0.2s;
+  -moz-transform: rotate(45deg);
+  -moz-transition-delay: 0s, 0.2s;
+  transform: rotate(45deg);
+  transition-delay: 0s, 0.2s;
+}
+.hamburger.active span:after {
+  margin-top: 0;
+  -webkit-transform: rotate(-45deg);
+  -webkit-transition-delay: 0s, 0.2s;
+  -moz-transform: rotate(-45deg);
+  -moz-transition-delay: 0s, 0.2s;
+  transform: rotate(-45deg);
+  transition-delay: 0s, 0.2s;
+}
+
 .section-nav-scroll {
-  background-color: #ca0b0b;
   height: 100vh;
   /*Borrar*/
 }
 
-/*Borrar*/
-#about {
-  background-color: #63ca6c;
-}
-
-/*Borrar*/
 .container-section {
   margin-right: auto;
   margin-left: auto;
@@ -152,6 +254,7 @@ a:hover {
   margin-left: 12%;
   margin-right: 12%;
   position: relative;
+  font-family: Didoni;
 }
 .container-section .titulos h2 {
   font-size: 100px;
@@ -193,7 +296,7 @@ a:hover {
   right: -100%;
   margin: auto;
   display: block;
-  width: 100%;
+  height: 100%;
 }
 .container-section .title-top .content-section-r {
   background-color: #fff0dd;
@@ -209,6 +312,7 @@ a:hover {
 }
 .container-section .title-top .content-section-r .categories .h1 {
   font-size: 8vh;
+  font-family: Didoni;
   color: #d8b5a0;
   transition: all 0.5s ease;
 }
@@ -252,7 +356,62 @@ a:hover {
 
 .subscribe-title {
   font-size: 17vh;
-  font-weight: bold;
+  font-family: Didoni;
+}
+
+#menu-container-mobile {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  margin: auto;
+  background-color: #fff0;
+  z-index: 999;
+  transition: all 0.5s ease;
+  font-family: Didoni;
+  font-size: 4vh;
+  text-transform: lowercase;
+  padding: 0px;
+}
+#menu-container-mobile #menu {
+  padding: 0px;
+}
+#menu-container-mobile #menu .navbar-nav .nav-link:focus, #menu-container-mobile #menu .navbar-light .navbar-nav .nav-link:hover {
+  color: #5e614e;
+  background-color: #d8b5a0;
+}
+#menu-container-mobile #menu .dropdown-menu {
+  border: none;
+}
+
+#home {
+  overflow: hidden;
+  position: relative;
+}
+#home #logo {
+  position: absolute;
+  bottom: 0px;
+  left: -100%;
+  width: 70%;
+  z-index: 10;
+  margin: auto;
+  right: -100%;
+}
+#home #planta_home {
+  position: absolute;
+  z-index: 5;
+  margin: auto;
+  right: -1%;
+  height: 109%;
+  bottom: -12%;
+}
+#home #background_home {
+  position: absolute;
+  bottom: -10%;
+  right: -9%;
+  width: 71%;
+}
+#home #background_home_mobile {
+  display: none;
 }
 
 #subscribe-input {
@@ -284,6 +443,7 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   position: inherit;
+  color: #fff0dd;
 }
 .posts-category .post-catego {
   margin-right: 0px;
@@ -297,6 +457,7 @@ a:hover {
 }
 .posts-category .post-catego .content-post-catego header {
   font-size: 4vh;
+  font-family: Didoni;
 }
 .posts-category .post-catego .img-post-cat {
   width: 100%;
@@ -362,6 +523,49 @@ a:hover {
   margin-top: 0px;
 }
 
+#flechamobile {
+  width: 1em;
+  margin: auto;
+  position: absolute;
+  bottom: 0%;
+  font-size: 3em;
+  left: -100%;
+  right: -100%;
+}
+
+.post-container {
+  height: auto;
+  padding-top: 5vh;
+  position: relative;
+}
+.post-container .titulos a {
+  color: #fff0dd;
+}
+.post-container .titulos a h2 {
+  font-size: 6vh;
+  width: 85%;
+  display: inline-block;
+}
+.post-container .titulos a span {
+  display: inline-block;
+  margin-left: -13%;
+  font-size: 6vh;
+  vertical-align: top;
+}
+.post-container .post-text-content {
+  margin-top: 20%;
+}
+.post-container .post-text-content .fondo {
+  position: absolute;
+  margin: auto;
+  height: 150%;
+  width: 100vw;
+  background-color: #fff0dd;
+  top: -6%;
+  left: -14%;
+  z-index: -1;
+}
+
 /*----------------------------
 ##################################################################
 ##################################################################
@@ -370,12 +574,38 @@ a:hover {
 
 Mobile*/
 @media only screen and (max-width: 990px) {
+  #home #logo {
+    bottom: 13%;
+    left: -100%;
+    width: 95%;
+    right: -100%;
+  }
+  #home #planta_home {
+    right: -10%;
+    height: 77%;
+    bottom: 19%;
+    top: 0px;
+  }
+  #home #background_home {
+    display: none;
+  }
+  #home #background_home_mobile {
+    position: absolute;
+    margin: auto;
+    width: 91%;
+    right: -12%;
+    bottom: 6%;
+    display: block;
+  }
+
   .container-fluid {
-    padding: 0px 10%;
+    padding: 0px 5%;
   }
   .container-fluid .container-section {
     width: 100%;
     height: auto;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   .container-fluid .container-section .titulos {
     margin: 0px;
@@ -403,6 +633,12 @@ Mobile*/
   .posts-category .izquierdo .content-post-catego, .posts-category .post-catego .content-post-catego {
     margin-top: 15vh;
     margin-bottom: 5%;
+    margin-left: 15%;
+  }
+
+  .posts-category .post-catego .img-post-cat img {
+    height: 115%;
+    width: auto;
   }
 
   .posts-category .post-catego .img-post-cat .readmore {
@@ -414,6 +650,29 @@ Mobile*/
 
   .navbar.navbar-fixed-bottom.container div p {
     font-size: 0.6rem;
+  }
+
+  .fondo {
+    display: none;
+  }
+
+  .post-container .titulos {
+    margin-top: 6vh !important;
+  }
+  .post-container .titulos a {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    display: block;
+  }
+  .post-container .titulos a span {
+    margin: auto;
+    font-size: 7vh;
+  }
+  .post-container .titulos a h2 {
+    font-size: 5vh !important;
+    width: 65%;
   }
 }
 

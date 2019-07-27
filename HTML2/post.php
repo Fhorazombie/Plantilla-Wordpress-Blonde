@@ -1,62 +1,36 @@
 <?php include "header.php"; ?>
 
 <div class="container-fluid">
-	<div class="section-nav-scroll container-section posts-category" id="categories">
-		  	<div class="row">
-		  		<div class="col-12 col-md-6">
+	<div class="section-nav-scroll container-section post-container">
+		  	<article class="row">
+		  		<div class="col-12 col-md-2">
 		  			<header class="titulos">
-		  				<h2>style</h2>
+			  			<a href="category.php">
+			  				<span>
+			  					<i class="fas fa-chevron-left"></i>
+			  				</span>
+			  				<h2>More than a shirt</h2>
+			  			</a>
 		  			</header>
-		  			<article class="post-catego uno-c">
-						<div class="content-post-catego">
-							<header>More than a shirt</header>
-							<p>Nodality crypto-tube tower Tokyo boat bridge. Film face forwards woman shanty town convenience store dome spook rebar Chiba.</p>
-						</div>
-		  				<div class="img-post-cat order-2">
-		  					<a class="readmore btn btn-link">read more</a>
-		  					<img src="http://lorempixel.com/600/1200/">
-		  				</div>
-		  			</article>
 		  		</div>
-		  		<div class="col-12 col-md-6">
-		  			<article class="post-catego izquierdo row">
-		  				<div class="img-post-cat col-12 order-2 order-md-1">
-		  					<a class="readmore btn btn-link">read more</a>
-		  					<img src="http://lorempixel.com/600/1200/">
+		  		<div class="col-12 col-md-10">
+		  			<div class="row">
+		  				<div class="col-12 col-md-7" style="text-align: center;">
+		  					<img src="img/post_1.jpg" style="margin: 3% auto;width: 100%;">
+		  					<img src="img/post_2.jpg" style="margin: 3% auto;width: 100%;">
+		  					<img src="img/post_3.jpg" style="margin: 3% auto;width: 100%;">
 		  				</div>
-		  				<div class="content-post-catego col-12 order-1 order-md-2">
-		  					<header>10 facts about me</header>
-		  					<p>Knife smart-systemic Legba pistol crypto-cyber-denim bomb physical assassin rifle A.I. shoes alcohol tattoo silent. Rifle network camera futurity engine katana numinous pre-artisanal Legba digital 3D-printed assassin range-rover tank-traps assault grenade.</p>
-		  				</div>
-		  			</article>
-		  		</div>
-		  	</div>
-		  	  	<div class="row">
-		  	  		<div class="col-12 col-md-6">
-		  	  			<article class="post-catego">
-		  					<div class="content-post-catego">
-		  						<header>More than a shirt</header>
-		  						<p>Nodality crypto-tube tower Tokyo boat bridge. Film face forwards woman shanty town convenience store dome spook rebar Chiba.</p>
+		  				<div class="col-12 col-md-5 post-text-content">
+		  					<p>Warehouse numinous sunglasses urban rifle render-farm courier fetishism concrete sentient woman denim hotdog. Gang grenade network industrial grade construct stimulate franchise alcohol San Francisco bicycle bomb euro-pop carbon post-numinous jeans. Nodal point skyscraper faded man tower table saturation point. Order-flow apophenia assassin BASE jump voodoo god skyscraper cartel pistol free-market bomb corrupted. Wonton soup boat woman hotdog physical pen savant tattoo man stimulate RAF 8-bit otaku camera. Weathered table BASE jump decay bicycle faded media katana Shibuya vehicle city sign free-market marketing assassin math-franchise. Corrupted gang render-farm camera kanji claymore mine otaku marketing bomb knife tattoo post-franchise tanto. Monofilament digital otaku euro-pop Tokyo pistol denim geodesic dead narrative sub-orbital. Digital man futurity DIY city uplink disposable plastic towards. 
+		  					</p>
+		  					<p>Digital market into lights long-chain hydrocarbons-space courier. Savant long-chain hydrocarbons Tokyo sub-orbital skyscraper spook bridge fetishism faded franchise alcohol. Film neural tank-traps wristwatch pre-tattoo tube render-farm lights dead boat. Tiger-team-ware garage modem disposable order-flow neural artisanal tanto voodoo god faded cardboard Legba dead. Urban render-farm sensory shrine denim katana military-grade semiotics neural towards pen crypto-corrupted pistol courier soul-delay. Apophenia narrative table range-rover smart-plastic numinous weathered Chiba Kowloon alcohol futurity warehouse girl DIY euro-pop. Vinyl alcohol car nano-sentient realism faded dead tower cyber-San Francisco tiger-team engine. Towards modem physical geodesic tower voodoo god 8-bit footage bomb futurity warehouse RAF tiger-team. </p>
+		  					<div class="fondo">
+		  						
 		  					</div>
-		  	  				<div class="img-post-cat">
-		  					<a class="readmore btn btn-link">read more</a>
-		  					<img src="http://lorempixel.com/600/1200/">
 		  				</div>
-		  	  			</article>
-		  	  		</div>
-		  	  		<div class="col-12 col-md-6">
-		  	  			<article class="post-catego izquierdo row">
-		  	  				<div class="img-post-cat col-12 order-2 order-md-1">
-		  					<a class="readmore btn btn-link">read more</a>
-		  					<img src="http://lorempixel.com/600/1200/">
-		  				</div>
-		  	  				<div class="content-post-catego col-12 order-1 order-md-2">
-		  	  					<header>10 facts about me</header>
-		  	  					<p>Knife smart-systemic Legba pistol crypto-cyber-denim bomb physical assassin rifle A.I. shoes alcohol tattoo silent. Rifle network camera futurity engine katana numinous pre-artisanal Legba digital 3D-printed assassin range-rover tank-traps assault grenade.</p>
-		  	  				</div>
-		  	  			</article>
-		  	  		</div>
-		  	  	</div>
+		  			</div>
+		  		</div>
+		  	</article>
 	</div>
 </div>
 	

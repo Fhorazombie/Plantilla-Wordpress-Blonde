@@ -1,11 +1,17 @@
 <?php include "header.php"; ?>
 
-<div class="container-fluid">
+<div class="container-fluid" style="padding: 0px;">
 	<div>
 		<section class="section-nav-scroll" id="home">
 			<header></header>
 			<div>
-				
+				<img src="img/CS_logo.png" id="logo">
+				<img id="planta_home" src="img/CS_plant.png">
+				<img id="background_home" src="img/CS_spotHomepageDesktop.png">
+				<img id="background_home_mobile" src="img/CS_spotHomepageMobile.png">
+				<div id="flechamobile" class="d-block d-sm-block d-md-none d-lg-none d-lx-none">
+					<a href="#about"><i class="fas fa-chevron-down"></i></a>
+				</div>
 			</div>
 		</section>
 		<section class="section-nav-scroll container-section" id="about">
@@ -16,7 +22,7 @@
 		  		<div class="col-12 col-md-10 offset-md-2">
 		  			<div class="row content-section">
 		  				<div class="col-12 col-md-5 img-section">
-		  					<img src="http://lorempixel.com/600/1200/">
+		  					<img src="img/index_1.jpg">
 		  				</div>
 		  				<div class="col-12 col-md-7">
 		  					<p>Soul-delay carbon media neon-ware engine range-rover. Disposable knife 8-bit digital sprawl meta-chrome youtube boat faded render-farm futurity computer.-ware drugs military-grade order-flow rain girl camera assault chrome silent concrete marketing lights gang long-chain hydrocarbons assassin sentient. Rain physical artisanal uplink marketing urban shoes spook carbon media savant construct 3D-printed. Warehouse construct semiotics dissident hacker Shibuya plastic sub-orbital camera denim A.I. Tokyo. Towards pistol disposable city drugs BASE jump monofilament bomb A.I. fetishism voodoo god dead skyscraper pen. Industrial grade human carbon nano-bomb nodal point-space dolphin man. Hacker courier systema construct sprawl urban tanto artisanal DIY wristwatch crypto-nano-pre-nodal point neural concrete. Cartel tube stimulate soul-delay dead DIY computer hacker concrete carbon San Francisco faded rebar. </p>
@@ -53,7 +59,20 @@
 			  		<div class="col-12 col-md-10 offset-md-2">
 			  			<div class="row content-section">
 			  				<div class="col-12">
-			  					
+			  					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+			  					  <div class="carousel-inner">
+			  					    <div class="carousel-item">
+			  					      <img src="..." alt="...">
+			  					      <div class="carousel-caption d-none d-md-block">
+			  					        <h5>...</h5>
+			  					        <p>...</p>
+			  					      </div>
+			  					    </div>
+			  					    <div class="carousel-item">
+			  					      <img class="d-block w-100" src="..." alt="Second slide">
+			  					    </div>
+			  					  </div>
+			  					</div>
 			  				</div>
 			  			</div>
 			  		</div>

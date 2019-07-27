@@ -13,20 +13,20 @@
 							<p>Nodality crypto-tube tower Tokyo boat bridge. Film face forwards woman shanty town convenience store dome spook rebar Chiba.</p>
 						</div>
 		  				<div class="img-post-cat order-2">
-		  					<a class="readmore btn btn-link">read more</a>
-		  					<img src="http://lorempixel.com/600/1200/">
+		  					<a class="readmore btn btn-link" href="post.php">read more</a>
+		  					<img src="img/post_1.jpg">
 		  				</div>
 		  			</article>
 		  		</div>
 		  		<div class="col-12 col-md-6">
 		  			<article class="post-catego izquierdo row">
 		  				<div class="img-post-cat col-12 order-2 order-md-1">
-		  					<a class="readmore btn btn-link">read more</a>
-		  					<img src="http://lorempixel.com/600/1200/">
+		  					<a class="readmore btn btn-link"  href="post.php">read more</a>
+		  					<img src="img/post_4.jpg">
 		  				</div>
 		  				<div class="content-post-catego col-12 order-1 order-md-2">
-		  					<header>10 facts about me</header>
-		  					<p>Knife smart-systemic Legba pistol crypto-cyber-denim bomb physical assassin rifle A.I. shoes alcohol tattoo silent. Rifle network camera futurity engine katana numinous pre-artisanal Legba digital 3D-printed assassin range-rover tank-traps assault grenade.</p>
+		  					<header>10 Facts About Me!</header>
+		  					<p>Warehouse dome range-rover dolphin corporation car RAF tanto drugs sub-orbital gang San Francisco-space-ware chrome woman office. </p>
 		  				</div>
 		  			</article>
 		  		</div>
@@ -35,24 +35,24 @@
 		  	  		<div class="col-12 col-md-6">
 		  	  			<article class="post-catego">
 		  					<div class="content-post-catego">
-		  						<header>More than a shirt</header>
+		  						<header>The Clarity Collection</header>
 		  						<p>Nodality crypto-tube tower Tokyo boat bridge. Film face forwards woman shanty town convenience store dome spook rebar Chiba.</p>
 		  					</div>
 		  	  				<div class="img-post-cat">
-		  					<a class="readmore btn btn-link">read more</a>
-		  					<img src="http://lorempixel.com/600/1200/">
+		  					<a class="readmore btn btn-link"  href="post.php">read more</a>
+		  					<img src="img/post_6.jpg">
 		  				</div>
 		  	  			</article>
 		  	  		</div>
 		  	  		<div class="col-12 col-md-6">
 		  	  			<article class="post-catego izquierdo row">
 		  	  				<div class="img-post-cat col-12 order-2 order-md-1">
-		  					<a class="readmore btn btn-link">read more</a>
-		  					<img src="http://lorempixel.com/600/1200/">
+		  					<a class="readmore btn btn-link"  href="post.php">read more</a>
+		  					<img src="img/post_5.png">
 		  				</div>
 		  	  				<div class="content-post-catego col-12 order-1 order-md-2">
-		  	  					<header>10 facts about me</header>
-		  	  					<p>Knife smart-systemic Legba pistol crypto-cyber-denim bomb physical assassin rifle A.I. shoes alcohol tattoo silent. Rifle network camera futurity engine katana numinous pre-artisanal Legba digital 3D-printed assassin range-rover tank-traps assault grenade.</p>
+		  	  					<header>Style Guide</header>
+		  	  					<p>Gang j-pop savant weathered katana franchise decay Shibuya military-grade DIY denim crypto. Monofilament render-farm lights katana hotdog construct neon silent. Gang advert realism render-farm computer beef noodles tower.</p>
 		  	  				</div>
 		  	  			</article>
 		  	  		</div>

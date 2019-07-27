@@ -20,3 +20,13 @@ $("#menu .nav a[href^='#']").on('click', function(e) {
    $(this).addClass("active")
 
 });
+
+  $('#navbarTogglerDemo02').on('shown.bs.collapse', function () {
+    $(".hamburger").toggleClass('active')
+    $("#menu-container-mobile").css('background-color','#fff')
+  })
+
+  $('#navbarTogglerDemo02').on('hidden.bs.collapse', function () {
+    $(".hamburger").toggleClass('active')
+    $("#menu-container-mobile").css('background-color','')
+  })
