@@ -42,6 +42,10 @@ button {
   font-family: HelveticaNeue;
 }
 
+p {
+  font-size: 0.9rem;
+}
+
 .contenido_semantico {
   clip-path: inset(100%);
   clip: rect(1px 1px 1px 1px);
@@ -93,7 +97,11 @@ button {
 }
 #menu-container #menu .nav.flex-column .nav-link p {
   position: absolute;
-  top: 2.19em;
+  top: -100%;
+  bottom: -100%;
+  margin: auto;
+  display: block;
+  height: 1.5em;
   left: 2.7em;
   font-size: 1.3em;
   opacity: 0;
@@ -250,20 +258,21 @@ button {
 }
 .container-section .titulos {
   z-index: 9;
-  margin-top: 4%;
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-left: 8.5%;
+  margin-right: 10%;
   position: relative;
   font-family: Didoni;
 }
 .container-section .titulos h2 {
-  font-size: 100px;
+  font-size: 13vh;
   text-transform: lowercase;
+  -webkit-text-stroke: 1px #5e614e;
+  -webkit-text-fill-color: #0000;
 }
 .container-section .title-top {
   margin-right: 0px;
   margin-left: 0px;
-  margin-top: -4%;
+  margin-top: -8vh;
   width: 100%;
 }
 .container-section .title-top .content-section {
@@ -300,11 +309,14 @@ button {
 }
 .container-section .title-top .content-section-r {
   background-color: #fff0dd;
-  padding-top: 7%;
   padding-right: 3%;
   padding-left: 7%;
   height: 86.5vh;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 .container-section .title-top .content-section-r .categories {
   margin: auto;
@@ -313,11 +325,13 @@ button {
 .container-section .title-top .content-section-r .categories .h1 {
   font-size: 8vh;
   font-family: Didoni;
-  color: #d8b5a0;
   transition: all 0.5s ease;
+  -webkit-text-stroke: 0px #d8b5a0;
+  -webkit-text-fill-color: #d8b5a0;
 }
 .container-section .title-top .content-section-r .categories .h1:hover {
-  color: #fff;
+  -webkit-text-stroke: 1px #d8b5a0;
+  -webkit-text-fill-color: #0000;
   margin-left: 3%;
 }
 .container-section .title-top .content-section-r .img-section {
@@ -345,7 +359,7 @@ button {
   width: 100%;
 }
 .navbar.navbar-fixed-bottom.container div p {
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 .navbar.navbar-fixed-bottom.container div .redes {
   margin-bottom: 5px;
@@ -357,6 +371,7 @@ button {
 .subscribe-title {
   font-size: 17vh;
   font-family: Didoni;
+  line-height: 16vh;
 }
 
 #menu-container-mobile {
@@ -445,6 +460,11 @@ button {
   position: inherit;
   color: #fff0dd;
 }
+.posts-category .titulos h2 {
+  -webkit-text-stroke: 1px #d8b5a0;
+  -webkit-text-fill-color: #0000;
+  text-shadow: -5px -5px #fff0dd;
+}
 .posts-category .post-catego {
   margin-right: 0px;
   margin-left: 0px;
@@ -478,7 +498,9 @@ button {
   transition: all 0.5s ease;
 }
 .posts-category .post-catego .img-post-cat .readmore {
-  color: #fff0dd;
+  color: #d8b5a0;
+  text-shadow: -5px -2px #fff0dd;
+  text-decoration: none;
   position: absolute;
   top: -300%;
   bottom: -100%;
@@ -486,13 +508,14 @@ button {
   right: -100%;
   margin: auto;
   z-index: 999;
-  width: 14vw;
+  width: 100%;
   height: 12vh;
   font-size: 6vh;
   text-align: center;
   opacity: 0;
   padding: 0px;
   transition: all 0.5s ease;
+  font-family: Didoni;
 }
 .posts-category .post-catego .img-post-cat:hover .readmore {
   opacity: 1;
@@ -539,18 +562,22 @@ button {
   position: relative;
 }
 .post-container .titulos a {
-  color: #fff0dd;
+  color: #d8b5a0;
 }
 .post-container .titulos a h2 {
   font-size: 6vh;
   width: 85%;
   display: inline-block;
+  -webkit-text-stroke: unset;
+  -webkit-text-fill-color: unset;
+  text-transform: inherit;
 }
 .post-container .titulos a span {
   display: inline-block;
   margin-left: -13%;
-  font-size: 6vh;
+  font-size: 5vh;
   vertical-align: top;
+  transform: scale(0.5, 1);
 }
 .post-container .post-text-content {
   margin-top: 20%;
@@ -558,12 +585,19 @@ button {
 .post-container .post-text-content .fondo {
   position: absolute;
   margin: auto;
-  height: 150%;
+  height: 120%;
   width: 100vw;
   background-color: #fff0dd;
   top: -6%;
   left: -14%;
   z-index: -1;
+}
+
+#subscribe .title-top .content-section-r {
+  background-image: url(img/CS_spotSubscriptionDesktop.png);
+  background-repeat: no-repeat;
+  background-position: 103% 105%;
+  background-size: auto 50%;
 }
 
 /*----------------------------
@@ -614,7 +648,7 @@ Mobile*/
     font-size: 3rem;
   }
   .container-fluid .container-section .title-top {
-    margin-top: -1.6rem;
+    margin-top: -2.1rem;
   }
   .container-fluid .container-section .title-top .col-12 {
     padding: 0px;
@@ -673,6 +707,12 @@ Mobile*/
   .post-container .titulos a h2 {
     font-size: 5vh !important;
     width: 65%;
+  }
+
+  #subscribe .title-top .content-section-r {
+    background-image: url(img/CS_spotSubscriptionMobile.png);
+    background-position: 135% 105%;
+    background-size: auto 44%;
   }
 }
 

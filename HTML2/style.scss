@@ -52,6 +52,12 @@ button{
   font-family: HelveticaNeue;
 }
 
+p {
+
+    font-size: 0.9rem;
+
+}
+
 .contenido_semantico {
   clip-path: inset(100%);
   clip: rect(1px 1px 1px 1px);
@@ -103,7 +109,11 @@ button{
 
               p {
                   position: absolute;
-                  top: 2.19em;
+                  top: -100%;
+                  bottom: -100%;
+                  margin: auto;
+                  display: block;
+                  height: 1.5em;
                   left: 2.7em;
                   font-size: 1.3em;
                   opacity: 0;
@@ -275,14 +285,15 @@ button{
     width: 80%;
     .titulos {
         z-index: 9;
-        margin-top: 4%;
-        margin-left: 12%;
-        margin-right: 12%;
+        margin-left: 8.5%;
+        margin-right: 10%;
         position: relative;
         font-family: Didoni;
         h2{
-          font-size: 100px;
+          font-size: 13vh;
           text-transform: lowercase;
+          -webkit-text-stroke: 1px $color2;
+          -webkit-text-fill-color: #0000;
         }
     }
 
@@ -290,7 +301,7 @@ button{
     .title-top{
       margin-right: 0px;
       margin-left: 0px;
-      margin-top: -4%;
+      margin-top: -8vh;
       width: 100%;
       .content-section{
         background-color: $color1;
@@ -330,11 +341,14 @@ button{
 
       .content-section-r{
         background-color: $color1;
-        padding-top: 7%;
         padding-right: 3%;
         padding-left: 7%;
         height: 86.5vh;
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
         .categories {
             margin: auto;
             height: 100%;
@@ -342,11 +356,12 @@ button{
 
                 font-size: 8vh;
                 font-family: Didoni;
-                color: $color3;
                 transition: all 0.5s ease;
+                -webkit-text-stroke: 0px $color3;
+                -webkit-text-fill-color: $color3;
                 &:hover {
-
-                    color: #fff;
+                    -webkit-text-stroke: 1px $color3;
+                    -webkit-text-fill-color: #0000;
                     margin-left: 3%;
 
                 }
@@ -381,7 +396,7 @@ button{
     div {
         width: 100%;
         p{
-          font-size: 1rem;
+          font-size: 0.7rem;
         }
         .redes {
 
@@ -399,6 +414,7 @@ button{
 .subscribe-title {
     font-size: 17vh;
     font-family: Didoni;
+    line-height: 16vh;
 }
 
 #menu-container-mobile {
@@ -491,6 +507,11 @@ button{
         margin-right: auto;
         position: inherit;
         color: $color1;
+        h2{
+              -webkit-text-stroke: 1px $color3;
+              -webkit-text-fill-color: #0000;
+              text-shadow: -5px -5px $color1;
+        }
     }
     .post-catego{
       margin-right: 0px;
@@ -525,7 +546,9 @@ button{
           }
 
           .readmore {
-              color: $color1;
+              color: $color3;
+              text-shadow: -5px -2px $color1;
+              text-decoration: none;
               position: absolute;
               top: -300%;
               bottom: -100%;
@@ -533,13 +556,14 @@ button{
               right: -100%;
               margin: auto;
               z-index: 999;
-              width: 14vw;
+              width: 100%;
               height: 12vh;
               font-size: 6vh;
               text-align: center;
               opacity: 0;
               padding: 0px;
               transition: all 0.5s ease;
+              font-family: Didoni;
           }
 
           &:hover .readmore {
@@ -601,17 +625,21 @@ button{
   position: relative;
     .titulos{
       a{
-        color: $color1;
+        color: $color3;
         h2{
           font-size: 6vh;
           width: 85%;
           display: inline-block;
+          -webkit-text-stroke: unset;
+          -webkit-text-fill-color: unset;
+          text-transform: inherit;
         }
         span{
-          display:inline-block;
+          display: inline-block;
           margin-left: -13%;
-          font-size: 6vh;
+          font-size: 5vh;
           vertical-align: top;
+          transform: scale(.5, 1);
         }
       }
 
@@ -622,7 +650,7 @@ button{
         .fondo {
             position: absolute;
             margin: auto;
-            height: 150%;
+            height: 120%;
             width: 100vw;
             background-color: $color1;
             top: -6%;
@@ -631,6 +659,13 @@ button{
         }
     }
   
+}
+
+#subscribe .title-top .content-section-r{
+  background-image: url(img/CS_spotSubscriptionDesktop.png);
+  background-repeat: no-repeat;
+  background-position: 103% 105%;
+  background-size: auto 50%;
 }
 
 
@@ -700,7 +735,7 @@ Mobile*/
           }
 
           .title-top{
-            margin-top: -1.6rem;
+            margin-top: -2.1rem;
             .col-12 {
               padding: 0px;
               .content-section, .content-section-r {
@@ -772,6 +807,12 @@ Mobile*/
          }
       }
 
+    }
+
+    #subscribe .title-top .content-section-r{
+      background-image: url(img/CS_spotSubscriptionMobile.png);
+      background-position: 135% 105%;
+      background-size: auto 44%;
     }
 
 }

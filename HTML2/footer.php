@@ -1,4 +1,4 @@
-	
+<?php if (!isset($post)) { ?>
 <footer class="navbar navbar-fixed-bottom container">
 	<h1 class="contenido_semantico">Pie de página</h1>
 	<div>
@@ -33,6 +33,7 @@
 		<p>Cammie Scott 2019 | Designed by <a href="">Maria Magnáni</a></p>
 	</div>
 </footer>
+<?php } ?>
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/scriptis.js"></script>

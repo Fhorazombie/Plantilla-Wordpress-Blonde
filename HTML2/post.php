@@ -34,4 +34,6 @@
 	</div>
 </div>
 	
-<?php include "footer.php"; ?>
+<?php 
+$post=1;
+include "footer.php"; ?>
