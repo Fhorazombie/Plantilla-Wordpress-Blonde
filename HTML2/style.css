@@ -1,5 +1,7 @@
 @import url("css/bootstrap.min.css");
 @import url("css/all.min.css");
+@import url("css/slick.css");
+@import url("css/slick-theme.css");
 /*
 COLORES
 
@@ -600,6 +602,43 @@ p {
   background-size: auto 50%;
 }
 
+#shop .title-top .col-12 .content-section {
+  padding: 7% 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+#shop .title-top .col-12 .content-section .responsive-slider-shop .item-shop {
+  padding: 0px 2%;
+}
+#shop .title-top .col-12 .content-section .responsive-slider-shop .item-shop a {
+  text-align: center;
+}
+#shop .title-top .col-12 .content-section .responsive-slider-shop .item-shop a .imagen-shop {
+  width: 40vh;
+  position: relative;
+  height: 50vh;
+  overflow: hidden;
+  margin: 20px auto;
+  box-shadow: -20px -20px #5e614e;
+}
+#shop .title-top .col-12 .content-section .responsive-slider-shop .item-shop a .imagen-shop img {
+  width: auto;
+  position: absolute;
+  margin: auto;
+  display: block;
+  height: 100%;
+  left: -100%;
+  right: -100%;
+  top: -100%;
+  bottom: -100%;
+}
+#shop .title-top .col-12 .content-section .responsive-slider-shop .item-shop a h5 {
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
 /*----------------------------
 ##################################################################
 ##################################################################
@@ -713,6 +752,28 @@ Mobile*/
     background-image: url(img/CS_spotSubscriptionMobile.png);
     background-position: 135% 105%;
     background-size: auto 44%;
+  }
+
+  #shop .title-top .col-12 .content-section .responsive-slider-shop .item-shop {
+    padding: 0px;
+  }
+  #shop .title-top .col-12 .content-section .responsive-slider-shop .item-shop a .imagen-shop {
+    margin: 10px;
+    box-shadow: -10px -10px #5e614e;
+  }
+
+  .slick-prev, .slick-next {
+    font-size: 74px;
+    bottom: -39%;
+    top: auto;
+  }
+
+  .slick-prev {
+    left: 20%;
+  }
+
+  .slick-next {
+    right: 20%;
   }
 }
 

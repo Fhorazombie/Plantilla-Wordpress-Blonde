@@ -59,18 +59,30 @@
 			  		<div class="col-12 col-md-10 offset-md-2">
 			  			<div class="row content-section">
 			  				<div class="col-12">
-			  					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-			  					  <div class="carousel-inner">
-			  					    <div class="carousel-item">
-			  					      <img src="..." alt="...">
-			  					      <div class="carousel-caption d-none d-md-block">
-			  					        <h5>...</h5>
-			  					        <p>...</p>
-			  					      </div>
-			  					    </div>
-			  					    <div class="carousel-item">
-			  					      <img class="d-block w-100" src="..." alt="Second slide">
-			  					    </div>
+			  					<div class="responsive-slider-shop">
+			  					  <div class="item-shop">
+				  					  	<a href="https://shop.cammiescott.me/products/imperfect-rainbow-pocket-tee">
+				  					  		<div class="imagen-shop">
+				  					  			<img src="img/shop-1.jpg">
+				  					  		</div>
+				  					  		<h5>Imperfection Rainbow pocket Tee</h5>
+				  					  	</a>
+			  					  </div>
+			  					  <div class="item-shop">
+				  					  	<a href="https://shop.cammiescott.me/products/imperfect-rainbow-pocket-tee">
+				  					  		<div class="imagen-shop">
+				  					  			<img src="img/shop-2.jpg">
+				  					  		</div>
+				  					  		<h5>In full bloom signature tee</h5>
+				  					  	</a>
+			  					  </div>
+			  					  <div class="item-shop">
+				  					  	<a href="https://shop.cammiescott.me/products/imperfect-rainbow-pocket-tee">
+				  					  		<div class="imagen-shop">
+				  					  			<img src="img/shop-3.jpg">
+				  					  		</div>
+				  					  		<h5>Bloom Baby Bloom Sweatshirt</h5>
+				  					  	</a>
 			  					  </div>
 			  					</div>
 			  				</div>
