@@ -1,3 +1,23 @@
+@charset "UTF-8";
+/*
+
+Theme Name: cammiescott
+
+Author: Maria Magnáni
+
+Author URI: http://www.cammiescott.me
+
+Description:******************************************
+
+Version: 1.0
+
+License: GNU General Public License v2 or later
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Text Domain: cammiescott
+
+*/
 @import url("css/bootstrap.min.css");
 @import url("css/all.min.css");
 @import url("css/slick.css");

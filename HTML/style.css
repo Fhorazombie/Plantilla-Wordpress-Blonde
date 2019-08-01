@@ -1,3 +1,23 @@
+@charset "UTF-8";
+/*
+
+Theme Name: theblondefiles
+
+Author: Maria Magnáni
+
+Author URI: https://theblondefiles.com/
+
+Description:******************************************
+
+Version: 1.0
+
+License: GNU General Public License v2 or later
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Text Domain: theblondefiles
+
+*/
 @import url("css/bootstrap.min.css");
 @import url("css/all.min.css");
 /*
