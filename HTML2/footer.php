@@ -40,7 +40,7 @@
 	<script src="js/scriptis.js"></script>
 	<script type="text/javascript">
 		$('.responsive-slider-shop').slick({
-		  dots: true,
+		  dots: false,
 		  infinite: true,
 		  speed: 300,
 		  slidesToShow: 2,
@@ -54,7 +54,6 @@
 		        slidesToShow: 2,
 		        slidesToScroll: 2,
 		        infinite: true,
-		        dots: true
 		      }
 		    },
 		    {

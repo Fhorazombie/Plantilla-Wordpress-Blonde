@@ -623,19 +623,23 @@ p {
 }
 
 #shop .title-top .col-12 .content-section {
-  padding: 7% 8%;
+  padding: 7% 5%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
 }
-#shop .title-top .col-12 .content-section .responsive-slider-shop .item-shop {
-  padding: 0px 2%;
+#shop .title-top .col-12 .content-section .responsive-slider-shop .slick-list {
+  margin: 0px 10%;
+  overflow: hidden;
 }
-#shop .title-top .col-12 .content-section .responsive-slider-shop .item-shop a {
+#shop .title-top .col-12 .content-section .responsive-slider-shop .slick-list .item-shop {
+  margin-left: 20px;
+}
+#shop .title-top .col-12 .content-section .responsive-slider-shop .slick-list .item-shop a {
   text-align: center;
 }
-#shop .title-top .col-12 .content-section .responsive-slider-shop .item-shop a .imagen-shop {
+#shop .title-top .col-12 .content-section .responsive-slider-shop .slick-list .item-shop a .imagen-shop {
   width: 40vh;
   position: relative;
   height: 50vh;
@@ -643,7 +647,7 @@ p {
   margin: 20px auto;
   box-shadow: -20px -20px #5e614e;
 }
-#shop .title-top .col-12 .content-section .responsive-slider-shop .item-shop a .imagen-shop img {
+#shop .title-top .col-12 .content-section .responsive-slider-shop .slick-list .item-shop a .imagen-shop img {
   width: auto;
   position: absolute;
   margin: auto;
@@ -654,7 +658,7 @@ p {
   top: -100%;
   bottom: -100%;
 }
-#shop .title-top .col-12 .content-section .responsive-slider-shop .item-shop a h5 {
+#shop .title-top .col-12 .content-section .responsive-slider-shop .slick-list .item-shop a h5 {
   font-size: 1rem;
   text-transform: capitalize;
 }
