@@ -35,5 +35,4 @@
 </div>
 	
 <?php 
-$post=1;
 include "footer.php"; ?>
