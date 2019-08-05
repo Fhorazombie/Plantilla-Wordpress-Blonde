@@ -22,7 +22,7 @@
 										<img src="img/foto_1.jpg">
 									</div>
 									<p>Long-chain hydrocarbons apophenia smart-bomb computer wristwatch denim hotdog claymore mine face forwards vinyl drone. BASE jump-space 8-bit woman savant denim market towards post-neural uplink.</p>
-									<a href="" class="btn btn-primary">Reads more</a>
+									<a href="" class="btn btn-primary">Read more</a>
 								</div>
 							</div>
 						</div>
@@ -150,7 +150,7 @@
 			<div class="col-12 col-md-10">
 				<article class="post-featured container text-center">
 								<span class="tag-post">Youtube</span>
-								<h3 class="didottitle">Reacting to your incluence ASSUPTIONS</h3>
+								<h3 class="didottitle">Reacting To Your Influencer Assumptions</h3>
 								<hr>
 								<iframe width="560" height="315" src="https://www.youtube.com/embed/jw4iRknzAr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</article>

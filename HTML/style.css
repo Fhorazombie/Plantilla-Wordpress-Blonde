@@ -408,6 +408,8 @@ iframe {
 }
 .content-home .instagram-recently .col-6.col-md-2 {
   padding: 0px 5px;
+  flex: 0 0 20%;
+  max-width: 20%;
 }
 .content-home .instagram-recently .col-6.col-md-2 .content-home-article {
   height: 12vw;

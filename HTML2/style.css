@@ -494,7 +494,7 @@ p {
 .posts-category .post-catego .content-post-catego {
   margin-left: 25%;
   margin-right: 5%;
-  margin-top: 25vh;
+  margin-top: 5vh;
   margin-bottom: 5%;
 }
 .posts-category .post-catego .content-post-catego header {
@@ -548,7 +548,7 @@ p {
 }
 .posts-category .izquierdo .content-post-catego {
   margin-top: 5%;
-  margin-bottom: 25vh;
+  margin-bottom: 5vh;
   width: 100%;
   display: block;
   flex: inherit;
@@ -561,7 +561,7 @@ p {
   bottom: -100%;
 }
 .posts-category .uno-c .content-post-catego {
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 
 .izquierdo .img-post-cat {
@@ -659,6 +659,10 @@ p {
   text-transform: capitalize;
 }
 
+#about .title-top .col-12 .content-section .col-12.col-md-7 {
+  padding-left: calc(7% + 15px);
+}
+
 /*----------------------------
 ##################################################################
 ##################################################################
@@ -667,6 +671,10 @@ p {
 
 Mobile*/
 @media only screen and (max-width: 990px) {
+  #about .title-top .col-12 .content-section .col-12.col-md-7 {
+    padding-left: 0px;
+  }
+
   #home #logo {
     bottom: 13%;
     left: -100%;
@@ -702,6 +710,7 @@ Mobile*/
   }
   .container-fluid .container-section .titulos {
     margin: 0px;
+    margin-top: 55px;
   }
   .container-fluid .container-section .titulos h2 {
     font-size: 3rem;
@@ -724,7 +733,7 @@ Mobile*/
   }
 
   .posts-category .izquierdo .content-post-catego, .posts-category .post-catego .content-post-catego {
-    margin-top: 15vh;
+    margin-top: 0px;
     margin-bottom: 5%;
     margin-left: 15%;
   }
