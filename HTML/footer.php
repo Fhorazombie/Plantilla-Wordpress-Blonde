@@ -20,7 +20,7 @@
 			</a>
 
 		</div>
-		<p>Arielle Lorre 2019 | Designed by <a href="">Maria Magnáni</a></p>
+		<p>The Blonde Files 2019 <a href="http://synonymdesign.co/">Made by Synonym Design</a></p>
 	</div>
 </footer>
 	<script src="js/jquery-3.4.1.min.js"></script>
