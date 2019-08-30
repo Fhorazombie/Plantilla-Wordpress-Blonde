@@ -58,6 +58,8 @@ $color3: #F4D0C2;
 
 $colornegro: #000;
 
+$color4: #e2d8d2;
+
 .contenido_semantico{clip-path: inset(100%);
  clip: rect(1px 1px 1px 1px); /* IE 6/7 */
   clip: rect(1px, 1px, 1px, 1px);
@@ -83,7 +85,7 @@ h1{
 
 hr {
 
-    border-top: 4px solid $color1;
+    border-top: 4px solid $color4;
     width: 40%
 
 }
@@ -145,8 +147,8 @@ iframe {
 
 .btn-primary {
     color: #000;
-    background-color: $color1;
-    border-color: $color1;
+    background-color: $color4;
+    border-color: $color4;
     border-radius: 0px;
     transition: all 0.5s ease;
     &:hover {
@@ -158,13 +160,13 @@ iframe {
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
     color: #000;
-    background-color: $color1;
-    border-color: $color1;
+    background-color: $color4;
+    border-color: $color4;
 }
 
 .btn-primary.focus, .btn-primary:focus {
 
-    box-shadow: 0 0 0 .2rem $color1;
+    box-shadow: 0 0 0 .2rem $color4;
 
 }
 
@@ -188,7 +190,7 @@ iframe {
     border-radius: 0px;
     border: none;
     text-align: center;
-    background-color: $color2;
+    background-color: $color4;
     color: #000;
     font-weight: 900;
     margin: 0px;

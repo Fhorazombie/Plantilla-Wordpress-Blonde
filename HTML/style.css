@@ -71,7 +71,7 @@ h1 {
 }
 
 hr {
-  border-top: 4px solid #F9DDD2;
+  border-top: 4px solid #e2d8d2;
   width: 40%;
 }
 
@@ -123,8 +123,8 @@ iframe {
 
 .btn-primary {
   color: #000;
-  background-color: #F9DDD2;
-  border-color: #F9DDD2;
+  background-color: #e2d8d2;
+  border-color: #e2d8d2;
   border-radius: 0px;
   transition: all 0.5s ease;
 }
@@ -136,12 +136,12 @@ iframe {
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
   color: #000;
-  background-color: #F9DDD2;
-  border-color: #F9DDD2;
+  background-color: #e2d8d2;
+  border-color: #e2d8d2;
 }
 
 .btn-primary.focus, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem #F9DDD2;
+  box-shadow: 0 0 0 0.2rem #e2d8d2;
 }
 
 .nav.nav-justified {
@@ -159,7 +159,7 @@ iframe {
   border-radius: 0px;
   border: none;
   text-align: center;
-  background-color: #FFF0EA;
+  background-color: #e2d8d2;
   color: #000;
   font-weight: 900;
   margin: 0px;
